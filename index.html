@@ -3,29 +3,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
+
+  <h1>The BlackJack Game</h1>
+  <div class="message-area"></div>
+
   <div class="gameboard">
-    <div id="human-player">
 
+    <div id="thrown-cards">
+      <div id="human-player"></div>
+      <div id="computer-player"></div>
     </div>
-    <div id="computer-player">
 
+    <div class="controls-buttons">
+      <button>Hit</button>
+      <button>Stand</button>
+      <button>Deal</button>
     </div>
+    
   </div>
+
+
   <div class="scores">
     <table>
       <tr>
-        <th></th>
-        <th>Player</th>
-        <th>Computer</th>
+        <th>Wins</th>
+        <th>Losses</th>
+        <th>Draws</th>
       </tr>
       <tr>
-        <td>Victories</td>
-        <td id="times-player-won">0</td>
-        <td id="times-computer-won">0</td>
+        <td id="win-score">0</td>
+        <td id="loss-score">0</td>
+        <td id="draw-score">0</td>
       </tr>
     </table>
   </div>
+
+
 </body>
 </html>
