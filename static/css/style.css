@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0 10%;
+  text-align: center;
+}
+
+header {
+  padding: 20px 0;
+}
+
+section {
+  background-color: darkgreen;
+  border: 2px solid black;
+  border-radius: 50px;
+  color: lightgray;
+}
+
+/* Place for cards */
+.gameboard {
+  height: 700px;
+}
+
+.gameboard div h2 {
+  width: 33%;
+  padding-top: 7px;
+}
+
+.cards-space {
+  display: flex;
+}
+
+.gameboard .cards-space div {
+  flex: 1;
+}
+
+#player-cards, #computer-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#player-cards img, #computer-cards img {
+  width: 30%;
+}
+
+/* Button section */
+.buttons {
+  border-top: 2px solid black;
+  border-bottom: none;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+/* Score table */
+
+.scores {
+  border-top: 2px solid black;
+  border-top: 2px solid black;
+  padding: 20px;
+}
+.scores table {
+  border-collapse: collapse;
+  margin: auto;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
