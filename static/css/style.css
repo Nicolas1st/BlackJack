@@ -53,11 +53,24 @@ section {
 }
 
 button {
-  padding: 5px 10px;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 5px 20px;
   background-color: lightgray;
   border-radius: 5px;
 }
 
+.hit-button {
+  background-color: rgb(21, 69, 216);
+}
+
+.stand-button {
+  background-color: coral;
+}
+
+.deal-button {
+  background-color: red;
+}
 
 /* Score table */
 
