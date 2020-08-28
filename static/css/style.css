@@ -15,6 +15,7 @@ header h2 {
 
 section {
   background-color: darkgreen;
+  box-shadow: inset 20px 20px 100px rgba(0, 0, 0, 0.5), inset -20px -20px 100px rgba(0, 0, 0, 0.5);
   border: 2px solid black;
   border-radius: 50px;
   color: lightgray;
@@ -27,21 +28,19 @@ section {
   height: 700px;
 }
 
-.gameboard h2 {
-  padding-top: 7px;
+.container h2 {
+  padding: 15px 0;
 }
 
-.gameboard div {
+.gameboard .container {
   flex: 1;
 }
 
-#player-cards, #computer-cards {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-#player-cards img, #computer-cards img {
-  width: 30%;
+.player-cards img, .computer-cards img {
+  width: 23%;
+  padding: 2%;
+  border-radius: 5%;
 }
 
 

@@ -9,26 +9,32 @@
 
   <header>
     <h1>The BlackJack Game</h1>
-    <h2><span id="message-area">Let's play</span></h2>
+    <h2><span class="message-area">Let's play</span></h2>
   </header>
   
   <section >
 
     <div class="gameboard">
-      <div>
-        <h2>Player points: <span id="player-points">0</span></h2>
-        <div id="player-cards"></div>
+      <div class='container'>
+        <h2>Player points: <span class="player-points">0</span></h2>
+        <div class="player-cards">
+          <!-- <img src="/static/images/10C.jpg" alt="" >
+          <img src="/static/images/10C.jpg" alt="" >
+          <img src="/static/images/10C.jpg" alt="" >
+          <img src="/static/images/10C.jpg" alt="" >
+          <img src="/static/images/10C.jpg" alt="" > -->
+        </div>
       </div>
-      <div>
-        <h2>Computer points: <span id="computer-points">0</span></h2>
-        <div id="computer-cards"></div>
+      <div class='container'>
+        <h2>Computer points: <span class="computer-points">0</span></h2>
+        <div class="computer-cards"></div>
       </div>
     </div>
       
     <div class="buttons">
-      <button onclick="hit()">Hit</button>
-      <button onclick="stand()">Stand</button>
-      <button onclick="deal()">Deal</button>
+      <button class="hit-button">Hit</button>
+      <button class="stand-button">Stand</button>
+      <button class="deal-button">Deal</button>
     </div>
     
     <div class="scores">
@@ -39,14 +45,16 @@
           <th>Draws</th>
         </tr>
         <tr>
-          <td id="win-score">0</td>
-          <td id="loss-score">0</td>
-          <td id="draw-score">0</td>
+          <td class="win-score">0</td>
+          <td class="loss-score">0</td>
+          <td class="draw-score">0</td>
         </tr>
       </table>
     </div>
 
   </section>
+
+  <script src="/static/js/script.js"></script>
 
 </body>
 </html>
