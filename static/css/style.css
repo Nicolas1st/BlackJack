@@ -13,6 +13,10 @@ header h2 {
   padding: 5px;
 }
 
+.message-area {
+  color: green;
+}
+
 section {
   background-color: darkgreen;
   box-shadow: inset 20px 20px 100px rgba(0, 0, 0, 0.5), inset -20px -20px 100px rgba(0, 0, 0, 0.5);
@@ -37,8 +41,8 @@ section {
 }
 
 
-.player-cards img, .computer-cards img {
-  width: 23%;
+.players-cards {
+  width: 15%;
   padding: 2%;
   border-radius: 5%;
 }
