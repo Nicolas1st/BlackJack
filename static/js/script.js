@@ -39,7 +39,7 @@ class Player {
 
   showCard(card) {
     const cardImage = document.createElement('img');
-    cardImage.src = `/static/images/${card}`;
+    cardImage.src = `./static/images/${card}`;
     cardImage.className = 'players-cards';
     this.cardTable.appendChild(cardImage);
   }
